@@ -1,0 +1,47 @@
+        > > > Difference Between Document and Window Object < < < 
+
+*** Browser object model(BOM)  :
+  
+      * Browser object model contains objects they  represent the current browser window or page.
+
+      * Object mostly shows the window or tab or inframes.
+
+      *Window object properties are browser history,location and device screen.
+
+      *And also denotes inner height,inner width and resize functions.
+
+
+*** Document Object model(DOM) :
+
+      * when a web page is loaded the browser creates the document object  of the page.
+
+      * The document objects representthe whole html documents like (head.body.and other html tags ).
+exsample
+      . anchors 
+      . applets
+      . areas
+      . forms 
+      . layers
+      . links
+
+
+***Difference between window and document :
+
+      *Window object it is the top most object and outer most element of the object.
+
+      *Document object only  representing a web page body tags .like head ,body ,tittle. the shows only constrct of the page .the page can be coloured or alternate by a CSS.
+
+       *Window object and Document objects having an same functions  but they reacts differently 
+ 
+*exsample :
+
+    .Window open -> to create new window or tab
+
+    .Document open ->to create new  blank document
+
+     * The window object having web functions and they denotes the  screen width.height ,colour depth,pixsel depth.
+
+     * similarly Document  doesnot have any method in window and document objects .
+
+
+                                *      *        * 
